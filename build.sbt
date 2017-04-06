@@ -10,7 +10,8 @@ val sparkDeps = Seq(
   "org.apache.spark" %% "spark-core" % spark,
   "org.apache.spark" %% "spark-sql" % spark,
   "org.apache.spark" %% "spark-streaming" % spark,
-  "org.apache.spark" %% "spark-yarn" % spark
+  "org.apache.spark" %% "spark-yarn" % spark,
+  "org.apache.spark" %% "spark-mllib" % spark
 )
 
 libraryDependencies ++= sparkDeps.map(_ % "provided")
