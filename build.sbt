@@ -4,7 +4,7 @@ version := "1.0"
 
 scalaVersion := "2.11.8"
 
-lazy val spark = "2.0.0"
+lazy val spark = "2.1.0"
 
 val sparkDeps = Seq(
   "org.apache.spark" %% "spark-core" % spark,
